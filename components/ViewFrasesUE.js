@@ -18,11 +18,7 @@ export default function ViewFrasesUE() {
     const geradorFrasesAleatorio = () => {
         setFrasesIndex(sorteioAleatorioIndex());
     }
-
-    // useEffect(() => {
-    //     geradorFrasesAleatorio();
-    // });
-
+    
     useEffect(() => {
         const timer = setTimeout(() => {
             geradorFrasesAleatorio();
